@@ -16,18 +16,18 @@ const userSChema = new mongoose.Schema({
     },
     phone: {
         type: String,
-        required: true
+        // required: true
     },
     img:{
         type: String
     },
     country: {
         type: String,
-        required: true
+        // required: true
     },
     city: {
         type: String,
-        required: true
+        // required: true
     }, 
     isAdmin: {
         type: Boolean,

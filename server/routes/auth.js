@@ -1,7 +1,5 @@
 const router = require('express').Router()
-
-router.post('/', (req, res) =>{
-
-})
+const ctrls = require('../controllers/auth')
+router.post('/register', ctrls.register)
 
 module.exports = router
